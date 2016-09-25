@@ -541,4 +541,34 @@
   type: 'Assembler'
   url: 'http://yasm.tortall.net/'
 ,
+  name: 'MoarVM',
+  source: 'MAST',
+  target: 'Machine Code',
+  type: 'JIT',
+  url: 'http://www.moarvm.org/'
+,
+  name: 'nqp-m',
+  source: 'NQP',
+  target: 'MAST',
+  type: 'Intermediate',
+  url: 'https://github.com/perl6/nqp'
+,
+  name: 'nqp-j',
+  source: 'NQP',
+  target: 'Java Bytecode',
+  type: 'Intermediate',
+  url: 'https://github.com/perl6/nqp'
+,
+  name: 'nqp-js',
+  source: 'NQP',
+  target: 'JavaScript',
+  type: 'Intermediate',
+  url: 'https://github.com/perl6/nqp'
+,
+  name: 'Rakudo',
+  source: 'Perl 6',
+  target: 'NQP',
+  type: 'Intermediate',
+  url: 'http://rakudo.org/'
+,
 ]
